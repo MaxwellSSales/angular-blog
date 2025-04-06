@@ -13,5 +13,8 @@ export class SmallCardComponent {
   @Input()
   cardTitle: string = 'Ingressos AnimeFriends 2025';
 
+  @Input()
+  Id: string = '0';
+
   constructor() {}
 }
